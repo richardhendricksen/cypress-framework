@@ -1,0 +1,21 @@
+{
+  "name": "cypress",
+  "version": "0.0.1",
+  "description": "The frontend integration tests using Cypress for testing and mocking.",
+  "scripts": {
+    "cy:run": "npx cypress run",
+    "cy:open": "npx cypress open",
+    "postinstall": "yarn --cwd node_modules/mean-example-app",
+    "test:ci": "concurrently \"yarn --cwd node_modules/mean-example-app start\" \"wait-on http-get://localhost:4200 && npx cypress run\" --kill-others --success first"
+  },
+  "author": "Richard Hendricksen",
+  "license": "ISC",
+  "dependencies": {
+    "mean-example-app": "git+https://github.com/richardhendricksen/mean-example-app.git"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "cypress": "^3.1.5",
+    "wait-on": "^3.2.0"
+  }
+}
