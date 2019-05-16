@@ -2,7 +2,7 @@
 The frontend integration tests Cypress for testing and mocking.
 
 ### Running
-Run tests using ```yarn cy:run```.  
+Run tests using ```yarn test:ci```.  
 
 ### Cypress
 Open Cypress using ```yarn cy:open```.  

@@ -3,7 +3,8 @@
 context('New Post', () => {
   before(() => {
     cy.server();
-    cy.route('GET', 'api/posts*', 'fixture:posts.json');
+    cy.route('GET', '**/api/posts/*', 'fixture:GET-posts.json');
+    cy.route('OPTIONS', '**/api/posts/*', 'fixture:OPTIONS-posts');
     cy.visit('http://localhost:4200')
   });
 

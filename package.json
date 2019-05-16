@@ -5,6 +5,7 @@
   "scripts": {
     "cy:run": "npx cypress run",
     "cy:open": "npx cypress open",
+    "app:start:frontend": "yarn --cwd node_modules/mean-example-app start",
     "postinstall": "yarn --cwd node_modules/mean-example-app",
     "test:ci": "concurrently \"yarn --cwd node_modules/mean-example-app start\" \"wait-on http-get://localhost:4200 && npx cypress run\" --kill-others --success first"
   },
@@ -15,7 +16,7 @@
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
-    "cypress": "^3.1.5",
+    "cypress": "^3.2.0",
     "wait-on": "^3.2.0"
   }
 }

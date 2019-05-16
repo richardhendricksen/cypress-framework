@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-context('New Post', () => {
+xcontext('New Post', () => {
   before(() => {
     cy.visit('http://localhost:4200/create')
   });
