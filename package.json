@@ -7,7 +7,7 @@
     "cy:open": "npx cypress open",
     "app:start:frontend": "yarn --cwd node_modules/mean-example-app start",
     "postinstall": "yarn --cwd node_modules/mean-example-app",
-    "test:ci": "concurrently \"yarn --cwd node_modules/mean-example-app start\" \"wait-on http-get://localhost:4200 && npx cypress run\" --kill-others --success first"
+    "test:ci": "concurrently \"yarn --cwd node_modules/mean-example-app start:frontend\" \"wait-on http-get://localhost:4200 && npx cypress run\" --kill-others --success first"
   },
   "author": "Richard Hendricksen",
   "license": "ISC",
