@@ -1,4 +1,5 @@
-[![CI](https://github.com/richardhendricksen/cypress-framework/actions/workflows/main.yml/badge.svg)](https://github.com/richardhendricksen/cypress-framework/actions/workflows/main.yml)# Frontend integration tests
+[![CI](https://github.com/richardhendricksen/cypress-framework/actions/workflows/main.yml/badge.svg)](https://github.com/richardhendricksen/cypress-framework/actions/workflows/main.yml)
+# Frontend integration tests
 The frontend integration tests Cypress for testing and mocking.
 
 ### Running
