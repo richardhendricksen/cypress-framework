@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/richardhendricksen/cypress-framework.svg?branch=master)](https://travis-ci.org/richardhendricksen/cypress-framework)
-# Frontend integration tests
+[![CI](https://github.com/richardhendricksen/cypress-framework/actions/workflows/main.yml/badge.svg)](https://github.com/richardhendricksen/cypress-framework/actions/workflows/main.yml)# Frontend integration tests
 The frontend integration tests Cypress for testing and mocking.
 
 ### Running
